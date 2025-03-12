@@ -43,5 +43,18 @@ public class Comic {
 
     public void setIssueNum(int issueNum) {
         this.issueNum = issueNum;
-    }   
+    }
+    
+    // Override toString method to provide a string representation of the Comic object.
+
+    @Override
+    public String toString() {
+        return "Comic{" +
+               "illustrator={'" + illustrator + "\'" +
+               ", writer={'" + writer + "\'" +
+               ", colorist={'" + colorist + "\'" +
+               ", title={'" + title + "\'" +
+                ", issueNum={'" + issueNum + "\'" + 
+                '}';
+    }
 }
