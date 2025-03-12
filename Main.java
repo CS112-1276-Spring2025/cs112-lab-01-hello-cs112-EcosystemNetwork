@@ -5,6 +5,10 @@ public class Main {
         System.out.println("Do I like baking?" + Main.isALike("baking"));
         System.out.println("Do I like Fishing?" + Main.isALike("Fishing"));
         Main.printAboutMe();
+        Comic favorite = new Comic();
+        favorite.setTitle("Superman 1111");
+        favorite.setIssueNum(1);
+        System.out.println("My favorite comic is: " + favorite.getTitle());
     }
 
     public static void printAboutMe() {

@@ -41,7 +41,7 @@ public class Comic {
         return issueNum;
     }
 
-    public void setTitle(int issueNum) {
+    public void setIssueNum(int issueNum) {
         this.issueNum = issueNum;
     }   
 }
